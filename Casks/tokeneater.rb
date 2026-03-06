@@ -1,6 +1,6 @@
 cask "tokeneater" do
-  version "4.7.4"
-  sha256 "731961b84951106a40f9fdfa7ca72d5a3a64574a276e116d45d47370dcfae694"
+  version "4.7.5"
+  sha256 "ca3645811fe4055edeaf8f05bd7c45084d694f1ca96fa0e4ee5dbefc09d4e132"
 
   url "https://github.com/AThevon/TokenEater/releases/download/v#{version}/TokenEater.dmg"
   name "TokenEater"
@@ -21,3 +21,4 @@ cask "tokeneater" do
     "~/Library/Containers/com.claudeusagewidget.widget",
   ]
 end
+
