@@ -1,6 +1,6 @@
 cask "tokeneater" do
-  version "4.7.9"
-  sha256 "b3a6299035dbf6c5371f1cf518dd9f0b42fcdf6df507baec8e22cfd875c67de9"
+  version "4.7.10"
+  sha256 "aaad1c983b2b0e84e71695edd8ee7c5d1c54dd16cf8cf5c5d9f686d4dcdf8f44"
 
   url "https://github.com/AThevon/TokenEater/releases/download/v#{version}/TokenEater.dmg"
   name "TokenEater"
