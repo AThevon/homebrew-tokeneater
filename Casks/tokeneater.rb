@@ -12,12 +12,16 @@ cask "tokeneater" do
 
   app "TokenEater.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/TokenEater.app"]
-  end
-
   zap trash: [
+    "~/Library/Application Support/com.tokeneater.shared",
+    "~/Library/Application Support/com.claudeusagewidget.shared",
+    "~/Library/Group Containers/S7B8M9JYF4.group.com.tokeneater",
+    "~/Library/Preferences/com.tokeneater.app.plist",
+    "~/Library/Preferences/com.tokeneater.app.widget.plist",
+    "~/Library/Containers/com.tokeneater.app",
+    "~/Library/Containers/com.tokeneater.app.widget",
+    "~/Library/Containers/com.claudeusagewidget.app",
+    "~/Library/Containers/com.claudeusagewidget.app.widget",
     "~/Library/Containers/com.claudeusagewidget.widget",
   ]
 end
