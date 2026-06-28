@@ -8,7 +8,7 @@ cask "tokeneater" do
   homepage "https://github.com/AThevon/TokenEater"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "TokenEater.app"
 
